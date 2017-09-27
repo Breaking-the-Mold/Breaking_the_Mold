@@ -1,0 +1,11 @@
+{
+  "name": "breaking_the_mold",
+  "version": "1.0.0",
+  "description": "Women breaking the mold, transitioning into a life of coding excellence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NiKole Maxwell <nvy.io>",
+  "license": "MIT"
+}

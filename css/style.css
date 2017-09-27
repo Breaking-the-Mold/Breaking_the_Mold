@@ -1,0 +1,288 @@
+html {
+	text-decoration: none;
+	color: #00ff90;
+}
+#home, #explore-section, #about-section {
+font-family: 'Philosopher', sans-serif;
+font-size: 16px;
+color: #565656;
+
+}
+
+.navbar {
+border-bottom: .2em inset #00ff90;
+opacity: 0.8;	
+}
+
+.navbar-dark .navbar-nav .nav-link {
+font-size: 1.3em;
+}
+
+#header-title {
+	text-shadow: 2px 2px black, -1px -1px #565656;
+}
+
+#header-title-sub{
+	text-shadow: 2px 2px black, -1px -1px #565656;
+	padding-bottom: .8em;
+}
+
+#section-title {
+	font-size: 3em;
+/*text-shadow: -5px -3px black, 2px 2px #fff, -2px -2px #96B8DC; */
+text-shadow: 1px 1px black, -2px -2px #00ff90;
+}
+
+.display4 strong{
+color: #00ff90;
+font-size: 1.4em;
+text-shadow: -5px -3px black, 2px 2px #fff, -2px -2px #96B8DC
+}
+
+.p-4 {
+font-size: 1.2em;
+padding: 1.5rem !important;
+}
+
+#home-section {
+background: url("../images/breaking_glass.jpg") no-repeat;
+min-height:  700px;
+background-size: cover;
+background-position: left center;
+background-origin: padding-box;
+background-attachment: fixed;
+color: #FFFFFF;
+opacity: .8;
+}
+
+.dark-overlay {
+/*background-color: rgba(0, 173, 58, 0.37); */
+/* background-color: rgba(0, 173, 129, 0.37); */
+background-color:rgba(52, 58, 64, 0.5);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+max-height: 700px;
+border-bottom: .2em inset #00ff90;
+opacity: 0.8;
+}
+
+.home-inner {
+padding-top: 125px;
+margin-top: .6em;
+}
+
+.card-body {
+color: #565656; 
+font-size: 1.1em;
+
+}
+
+.fa.fa-user-plus {
+color: #00ff90;
+}
+
+.card-body strong {
+color: #00ff90;
+font-size: 1.4em;
+text-shadow: .5px .5px #565656;
+margin-top: -.5em;
+}
+
+.text-center {
+margin-top: -1em;
+margin-bottom: 1em;
+
+}
+
+.form-group:nth-of-type(1) {
+border-top: .1em solid #00ff90;
+}
+
+.form-group {
+font-size:  1em;
+border: .2em groove #00ff90;
+margin-bottom: 0;
+border-top: 0em groove #bcbcbc;
+
+}
+
+.form-control-lg {
+line-height: 0;
+padding:    2px;
+}
+
+.fa {
+color: #00ff90;
+padding: 4px;
+border-radius: 5px;
+font-size:  2em;
+text-shadow: 2px 2px black;
+}
+
+.card-form {
+border: #00ff90 solid .3em;
+margin-bottom: 1.5em;
+border-radius: 3em;
+}
+
+.card-form i {
+font-size: 1em;
+color: #565656;
+}
+
+.btn.btn-outline-light.btn-block {
+margin-top: .7em;
+border: .2em groove #bcbcbc;
+color: #565656;
+font-size: 1.3em;
+font-weight: 700;
+font-variant: petite-caps;
+letter-spacing: 3px;
+background: #00ff90;
+border-radius: .2em;
+}
+
+#left-bracket {
+	float: left;
+	clear: both;
+	font-size: 5em;
+	color: #00ff90;
+}
+
+#right-bracket {
+	float: right;
+	clear: both;
+	font-size: 5em;
+	color: #00ff90;
+}
+
+#about-section {
+padding-top: 3em;
+background: rgba(33, 31, 31, 0.75);
+color: white;
+border-bottom: .2em inset #00ff90;
+
+}
+/*
+#about-section.about-img {
+	max-height: 350px;
+	background-image: url("../images/bwwcode.jpg");
+	background-size: cover;
+}  */
+
+#support-section-detail {
+	background: #00ff90;
+	border-top: .2em outset #00ff90;
+	border-bottom: .2em inset #00ff90;
+}
+
+#support-section-detail i {
+	padding-top: 50px;
+} 
+
+#support-section-detail img{
+	border: .2em outset #00ff90;
+}
+.bg-primary {
+background-color: rgb(201, 255, 231) !important;
+}
+
+#explore-section.bg-primary{
+	  background: repeating-radial-gradient(circle, rgb(201, 255, 231),   white 60px,    #565656 10px       )
+}
+
+#explore-card {
+	
+	height: 50px;
+	max-width:33%;
+	background-color: #565656;
+	color: white;
+	text-decoration: none;
+	margin-bottom: 1.5em;
+	 margin-right: .2em;
+	border-radius: .5em;
+}
+
+#explore-card a {
+	color:	#00ff90;
+	height: 50px;
+	max-width:30%; 
+	font-size: .8em;
+	text-decoration: none;
+	padding-left: 0;
+	padding-right: 0;
+	/*
+	background-color: #565656;
+	text-decoration: none;
+	margin-bottom: 1.5em;
+	margin-right: .2em;
+	border-radius: 2em; */
+
+}
+
+#explore-card button {
+	float: right;
+} 
+
+button {
+	margin-top: .7em;
+	border: .2em groove #bcbcbc;
+	color: #565656;
+	font-size: 1.3em;
+	font-weight: 700;
+	font-variant: petite-caps;
+	letter-spacing: 3px;
+	background: #00ff90;
+	border-radius: .5em;
+}
+
+#main-footer h2{
+	padding-top: 35px;
+	color: white;
+	font-family: 'Philosopher', sans-serif;
+	/*text-shadow: 2px 2px black, -2px -2px #00ff90; */
+	margin-bottom: 0;
+}
+
+#main-footer p {
+	color: #00ff90;
+	font-variant: small-caps;
+}
+
+.iconz img{
+	width: 60px;
+	height: 60px;
+	margin-left:100px;
+	margin-bottom: 0;
+}
+
+.d-flex.flex-row {
+	margin: 0;
+	padding: 0;
+	margin-top: -2.1em;
+}
+
+#nvy, #moldLink {
+	text-decoration: none;
+	color: white;
+}
+
+#nvy:hover {
+	font-size: 2.5em;
+}
+
+#moldLink:hover {
+	color:#00ff90;
+	font-size: 1.5em;	
+}
+
+#support {
+	font-family: 'Philosopher', sans-serif;
+}
+
+#support a {
+	color: #00ff90;
+	text-decoration: none;
+}
